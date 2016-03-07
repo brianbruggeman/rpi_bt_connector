@@ -46,7 +46,7 @@ raspberry pi.  I denote the ip below as 'rpi.ip'.
     > ssh-copy-id pi@rpi.ip # default password for pi is 'raspberry'
     > ssh pi@rpi.ip  # no need to remember password now.
 
-    > sudo apt-get install -y bluetooth bluez-utils blueman bluez python-gobject
+    > sudo apt-get install -y bluetooth bluez-utils blueman bluez python-gobject python-pip
 
 In addition, I use [docopt](http://docopt.org) to handle arguments within the
 python script, so we'll need those dependencies as well:
