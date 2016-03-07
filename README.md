@@ -38,6 +38,7 @@ required.
     blueman
     bluez
     python-gobject
+    python-pip
 
 For retropie, I simply use ssh.  You'll need the ip address for your
 raspberry pi.  I denote the ip below as 'rpi.ip'.
